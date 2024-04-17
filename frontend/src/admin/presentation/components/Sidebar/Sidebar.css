@@ -1,0 +1,48 @@
+aside {
+    
+    width: 12rem;
+    height: 88.5vh;
+    color: var(--special);
+    float: left;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.aside h3 {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    color:var(--light-special);
+}
+
+.aside button {
+    width: 10rem;
+    height: 2.5rem;
+    margin-bottom: 1rem;
+    background-color: var(--chocolate);
+    color: var(--white);
+    border: none;
+    text-transform:uppercase ;
+    transition: background-color 0.3s ease;
+}
+
+.aside button:hover {
+    background-color: var(--special);
+}
+
+.aside a {
+    color:var(--special);
+}
+
+.aside .icon {
+    margin-top: 1rem;
+}
+
+.aside .admin-profile {
+    margin-bottom: 3rem;
+}
